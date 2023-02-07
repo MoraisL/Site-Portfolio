@@ -4,20 +4,48 @@
 }
 body{
     color: #ffffff;
-    
+    background-image: url(../image/2070977-white-and-light-blue-gradiente-vertical-bold-line-seamless-pattern-background-and-texture-vetor.jpg);
 
 }
 header{
+    box-shadow: 0px 7px 15px #1a0dcd;
     background-color: #a31dd5;
     padding: 10px;
     align-items: center;
+    transition: 0.3s;
 }
 header ul{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     list-style: none;
+}
 
+header li{
+    transition: 0.3s;
+}
+
+header li:hover{
+    font-size: 30px;
+}
+
+
+main{
+    background-image: linear-gradient(to right, rgba(20,0,30,0.6), rgba(61, 5, 104,0.6),rgba(20,0,30,0.6));
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+#contato, form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#contato, div{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
 }
 footer{
     display: flex;
