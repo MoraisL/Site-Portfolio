@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <title>HTML5</title>
+    
 </head>
 <body>
     <header>
@@ -21,24 +22,28 @@
 
     <main>
         <section id="inicio">
-            <h1>Seja Bem-Vindo!</h1>
-            <p>Aqui você encontrará informações sobreo uso de HTML5 semântico para desenvolvimento da WEB</p>
+            <h1 class="welcome">Seja Bem-Vindo!</h1>
+            <p> Aqui você encontrará informações sobreo uso de HTML5 semântico para desenvolvimento da WEB.</p>
         </section>
 
-        <section id="sobre">
-            <h2>Sobre o HTML5 semântico</h2>
-            <p>O HTML5 semântico é uma evolucção da linguagen HTML que permite aos desenvolvedores criar estruturas mais significativas e ricas em conteúdo para seus sites e aplicativos.</p>
+    <div id="htmlback">
+        <section>
+            <h2 id="sobretit">Sobre o HTML5 semântico</h2><br>
+            <p id="sobre">O HTML5 semântico é uma evolucção da linguagen HTML que permite aos desenvolvedores criar estruturas mais significativas e ricas em conteúdo para seus sites e aplicativos.</p>
         </section>
 
+        <img id="htmlpng" src="./image/html.png" width="130">
+    </div>
 
         <section id="linguagens">
-            <h2>Outras linguagens associadas</h2>
-            <ul>
-                <li>Hyper Text Markup Language - HTML</li>
-                <li>Cascading Style Sheet - CSS</li>
-                <li>JavaScript - JS</li>
+            <div class="ferramentas">
+            <h2 class="of">Outras Ferramentas</h2>
+            <ul>r Text Markup Language - HTML</li><br>
+                <li><br>ading Style Sheet - CSS</li><br>
+                <li>Script - JS</li>
+                <img cl>ss="opa" src="./image/imagem_2023-02-07_202438333-removebg-preview (1) (1).png" width="180" height="200">
             </ul>
-
+            </div>
         </section>
 
 
@@ -55,7 +60,7 @@
                <textarea type="text" name="nome" id="mensagem"></textarea>
                 
              <div>
-               <label for="checkbox">Desejo receber informações sobre HTML5 por email:</label>
+               <label for="checkbox">Desejo receber informações sobre HTML5 por email</label>
                <input type="checkbox" name="checkbox" id="checkbox">
              </div>
 
