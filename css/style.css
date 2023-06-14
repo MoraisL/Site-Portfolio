@@ -530,6 +530,7 @@ margin-left: -3vw;
           display: flex;
           flex-direction: row;
          position: absolute;
+         text-decoration: none;
         }
         
         .radio-wrapper {
@@ -538,6 +539,7 @@ margin-left: -3vw;
           width: 310px;
           margin: 3px;
           z-index: 6;
+      
         }
         
         .radio-wrapper .input {
@@ -548,8 +550,11 @@ margin-left: -3vw;
           cursor: pointer;
           z-index: 10;
           opacity: 0;
+          
         }
-        
+        .radio-wrapper a{
+          text-decoration: none;
+        }
         .btn {
           --primary: #ffffff;
           --shadow-primary: #e897d8;
@@ -579,6 +584,7 @@ margin-left: -3vw;
           line-height: 38px;
           text-align: center;
           transition: background 0.2s, 0.3s;
+         
         }
         
         .input:checked + .btn {
@@ -1073,4 +1079,30 @@ li{
 margin-left: +50vh;
 margin-top: +3vw;
 border-radius: 30px;
+}
+
+#voltarTopo {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #ff00bf;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50%;
+  transition: opacity 0.3s ease-in-out;
+}
+
+#voltarTopo:hover {
+  background-color: #a4779f;
+}
+
+.limites{
+  margin-top: +8vh;
+  margin-bottom: +5vh;
 }
