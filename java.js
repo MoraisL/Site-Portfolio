@@ -50,3 +50,25 @@ window.onscroll = function() {
       });
     }
   }
+
+  function scrollToDiv() {
+    const div = document.getElementById("Redesid");
+    div.scrollIntoView({ behavior: "smooth" });
+  }
+
+  function scrollToDiv2() {
+    const div = document.getElementById("Automacaoid");
+    div.scrollIntoView({ behavior: "smooth" });
+  }
+  function scrollToDiv3() {
+    const div = document.getElementById("cienciaid");
+    div.scrollIntoView({ behavior: "smooth" });
+  }
+  function scrollToDiv4() {
+    const div = document.getElementById("Bancosid");
+    div.scrollIntoView({ behavior: "smooth" });
+  }
+  function scrollToDiv5() {
+    const div = document.getElementById("Linguagensid");
+    div.scrollIntoView({ behavior: "smooth" });
+  }
