@@ -27,3 +27,13 @@ function showSlide(n) {
 
     slides[slideIndex - 1].style.display = "block";
 }
+
+function changePage() {
+    const targetId = "LinguagensId";
+    const content = document.getElementById(targetId);
+    if (content) {
+      content.scrollIntoView({ behavior: 'smooth' });
+    } else {
+      console.log("ID não encontrada!");
+    }
+  }
