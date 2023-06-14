@@ -1066,3 +1066,11 @@ li{
 .textovideoo{
   margin-top: +5vw;
 }
+
+.imagemamostragem{
+  width: 50vw;
+  height: 42vh;
+margin-left: +50vh;
+margin-top: +3vw;
+border-radius: 30px;
+}
